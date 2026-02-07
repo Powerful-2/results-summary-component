@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Powerful-2/results-summary-component)
+- Live Site URL: [Add live site URL here](https://powerful-2.github.io/results-summary-component/)
 
 ## My process
 
@@ -54,11 +54,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- 
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -66,13 +63,37 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+HTML: I love the way I struture my divs
+<section class="result-section">
+      <div class="result-content">
+        <h1 class="result-title">Your Result</h1>
+
+        <div class="score-container">
+          <span class="score-number">76</span>
+          <span class="score-total">of 100</span>
+        </div>
+
+        <div class="feedback-container">
+          <h2 class="result-grade">Great</h2>
+          <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+    </section>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.proud-of-this: /* Desktop side-by-side - add this at the end */
+@media (min-width: 768px) 
+    .container {
+        max-width: 736px;
+        height: auto;
+        margin: 100px auto;
+        background-color: var(--white);
+        border-radius: 32px;
+        box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
 ```
 ```js
 const proudOfThisFunc = () => {
@@ -80,27 +101,13 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout
+This is an amazing article which helped me finally understand layout. I'd recommend it to anyone still learning this concept.
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Powerful-2)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
